@@ -1,0 +1,403 @@
+*{
+box-sizing:border-box;
+}
+body{
+
+}
+#menu{
+display:none;
+width:100%;
+color:#7c90ae;
+background:
+}
+#close{
+float:left;
+padding:10px;
+width:10%;
+}
+#menu1{
+float:left;
+padding:10px;
+width:90%;
+border-bottom:solid 1px;
+}
+#catcont{
+clear:left;
+}
+#lk{
+list-style-type:none;
+
+}
+.cont{
+padding:10px;
+border-bottom:solid 1px;
+clear:left;
+display:block;
+}
+
+#myacct{
+font-size:15px;
+float:left;
+padding: 10px;
+height:auto;
+margin-left:70px;
+}
+#pnk{
+float:left;
+text-align:right;
+}
+#cart{
+font-size:15px;
+float:left;
+background:#254778;
+padding:10px;
+padding-right:0px;
+width:75px;
+height:40px;
+}
+#logo{
+float:left;
+margin-right:41.6%;
+text-align:left;
+color: #d5ddea;
+}
+#lg{
+margin-top:0px;
+font-family:AR JULIAN;
+padding-left:50px;
+}
+#lo{
+width:400px;
+height:40px;
+}
+.incd{
+color: #d5ddea;
+background:#254778;
+border:none;
+}
+.catgo:hover{
+text-shadow:0 1px 5px #ffffff;
+/*font-weight:bold;*/
+}
+#moder{
+color:#d5ddea;
+margin:0 auto;
+width: 1255px;
+
+}
+#top{
+margin:0 auto;
+
+text-align:center;
+background:#254778;
+margin-bottom:10px;
+display:block;
+overflow:hidden;
+height:40px;
+}
+#help{
+float:left;
+font-size:15px;
+padding: 10px;
+}
+#nav{
+clear:left;
+
+text-align:center;
+margin:0 auto;
+display:inline block;
+height:40px;
+margin-bottom:10px;
+}
+#catg{
+background:#254778;
+margin-bottom:10px;
+}
+#navbar{
+float:left;
+font-size:30px;
+color:#254778;
+padding:10px;
+width: 8.3%;
+display:none
+}
+#catg{
+border:solid 2px #254778;
+}
+li{
+display:inline;
+padding:20px;
+
+list-style:none;
+font-size:15px;
+}
+ul{
+padding-left:0px;
+
+table-layout: fixed;
+}
+
+#item2{
+float:left;
+border-bottom: 1px solid #254778;
+}
+#item3{
+float:left;
+border-bottom: 1px solid #254778;
+}
+#item4{
+float:left;
+border-bottom: 1px solid #254778;
+}
+#item5{
+float:left;
+border-bottom: 1px solid #254778;
+}
+#item6{
+float:left;
+border-bottom: 1px solid #254778;
+}
+#item7{
+float:left;
+border-bottom: 1px solid #254778;
+}
+#item8{
+float:left;
+border-bottom: 1px solid #254778;
+}
+#item9{
+float:left;
+border-bottom: 1px solid #254778;
+}
+#item10{
+float:left;
+border-bottom: 1px solid #254778;
+}
+.but{
+background:#254778;
+height:40px;
+width:47%;
+border:none;
+color:#d5ddea;
+}
+
+.it{
+border-bottom: 1px solid #254778;
+float:left;
+margin:1%;
+padding:0px;
+width:23%;
+
+}
+#mitem{
+clear:left;
+margin:0 auto;
+text-align:left;
+overflow:auto;
+position:static;
+}
+.price{
+width:50px;
+color:#254778;
+}
+#cartval{
+background:#d5ddea;
+color:#254778;
+border-radius:5px;
+padding:5px;
+}
+#cartpanel{
+float:left;
+background:#d5ddea;
+max-height:180px;
+display:none;
+position:absolute;
+color:#254778;
+margin-left:870px;
+overflow:auto;
+width:400px;
+text-align:center;
+}
+#itml1,#itml2,#itml3,#itml4,#itml5,#itml6,#itml7,#itml8,#itml9,#itml10,#itml11,#itml12,#itml13,#itml14,#itml15,#itml16{
+display:none;
+}
+img {
+width:90%;
+height:220px;
+
+}
+.cont{
+overflow:auto;
+clear:left;
+margin-bottom:10px;
+
+}
+#shoecart{
+
+float:left;
+margin-right:8.33%;
+box-shadow:5px 5px 25px #a7b5c9;
+color:#7c90ae;
+}
+#alsh{
+float:left;
+box-shadow:2px 2px 35px  #a7b5c9;
+
+}
+.it:hover{
+box-shadow:2px 2px 40px 2px #a7b5c9;
+}
+#item5,#item9,#item13{
+clear:left;
+}
+#check,#check1,#check2,#check3,#check4,#check5,#check6,#check7,#check8,#check9,#check10,#check11,#check12,#check13,#check14,#check15{
+height:20px;
+margin-bottom:10px;
+width:100px;
+}
+#remove,#remove1,#remove2,#remove3,#remove4,#remove5,#remove6,#remove7,#remove8,#remove9,#remove10,#remove11,#remove12,#remove13,#remove14,#remove15{
+height:20px;
+width:100px;
+}
+#chkut,#chkut2,#chkut3,#chkut4,#chkut5,#chkut6,#chkut7,#chkut8,#chkut9,#chkut10,#chkut11,#chkut12,#chkut13,#chkut14,#chkut15,#chkut16{
+display:none;
+}
+#butt{
+width:100px;
+float:left;
+}
+#shba{
+display:none;
+}
+#itdt{
+float:left;
+width:210px;
+}
+.imgs{
+float:left;
+margin-left:10px;
+height:50px;
+margin-right:5px;
+}
+#tota{
+display:none;
+}
+#full{
+background:#254778;
+color:#d5ddea;
+margin:5px;
+margin-top:0px;
+border:none;
+height:25px;
+width:250px;
+}
+#searchbar{
+	display:none;
+	}
+#catofsh{
+display:block;
+}
+@media only screen and (max-width:600px){
+	#catg{
+	float:left;
+	}
+	#menu{
+	display:inline;
+	left:-100%;
+	position:absolute;
+	}
+	#comt{
+	width:90%;
+	box-shadow: 5px 5px 25px #a7b5c9;
+	}
+	#logo.col-4{
+	width:100%;
+	margin-right:0px;
+	background:#254778;
+	margin-bottom:10px;
+	}
+	#pnk.col-3{
+	clear:left;
+	width:100%;
+	background:#254778;
+	}
+	#moder{
+	width:auto;
+	}
+	#lo{
+	width:auto;
+	}
+	#cartpanel{
+	margin-left:0px;
+	}
+	#top{
+	background:none;
+	height:auto;
+	}
+	#myacct{
+	margin-left:20%;
+	}
+	#phone,#computer,#fashion,#elect,#home,#öther{
+	display:none;
+	}
+	#searchbar{
+	height:100%;
+	display:inline;
+	width:50%;
+	float:left;
+	border:none;
+	}
+	#search{
+	width:50%;
+	float:left;
+	margin:0px;
+	padding:0px;
+	}
+	#navbar.col-1 {width: 8.33%;
+	padding-left:0px;
+	font-size:25px;
+	display:inline;}
+	#catg.col-12{width: 91.66%;}
+	::-webkit-input-placeholder { font-size: 9pt; color: #7c90ae; }
+	#catofsh{
+	display:none;
+	}
+	#shoecart{
+	width:100%;}
+	#shba{
+	display:inline;
+	font-size:12px;
+	padding:10px
+	}
+	#alsh.col-9{
+	width:100%;
+	}
+	.it{
+	width:46%;
+	}
+	.bnk{
+	width:139.83px;
+	height:34px;
+	overflow:hidden;
+	padding-right:0px;
+	}
+	img{
+	height:170px;
+	}
+}
+
+@media only screen and (min-width:908px){
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}	
+
+}

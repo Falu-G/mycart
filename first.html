@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-1.12.4.js"></script>
+<script>
+function conc(){
+	var x = $("#price").text();
+	y= x.toString();
+	console.log(x.length);
+	console.log(y);
+	var up=y.search(",");
+	console.log(up);
+	var ux = y.substring(0,up);
+	console.log(ux);
+	var uv = y.substring(up+1,y.length);
+	console.log(uv);
+	var uh = ux.concat(uv);
+	console.log(uh);
+	uh= parseInt(uh);
+	console.log(uh);
+	$("#price").text(uh);
+	$("#clk2").show();
+}
+function frmt(){
+ var tl="";
+ var tp;
+	var up = "," ;
+	var xi = $("#price").text();
+	for (var i=xi.length, u=3,r=0; i>3; u+3,r++){
+		console.log(xi);
+		if(r>=1){
+		xi = tp;
+		}
+		console.log(xi);
+		up += xi.slice(xi.length-u,xi.length);
+		console.log(up);
+		var xi = xi.slice(0,xi.length-u);
+		console.log(xi.length);
+		//console.log(xi);
+		 tl += xi+up;
+		 tp=xi;
+	console.log(tl);
+		if(xi.length<4){
+			break;
+		}
+	
+	}
+}
+$(document).ready(function(){
+    $("#clk").click(function(){
+     conc();
+    });
+	$("#clk2").click(function(){
+     frmt();
+    });
+});
+</script>
+</head>
+<body>
+
+<p id="price">5000000 </p>
+<button id="clk">click me to unmask</button>
+<button id="clk2" style="display:none;">click me to mask</button>
+<p id="hi"></p>
+</body>
+</html>
+

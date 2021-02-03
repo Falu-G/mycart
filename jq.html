@@ -1,0 +1,46 @@
+<html>
+<head>
+<script src="jquery-1.12.4.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+		$("h1").click(function(){
+			$("h1").fadeOut(1000);
+	})
+	$("#show").click(function(){
+	$("h1").show(1000);
+	})
+	$("#hide"). click(function(){
+		$("h1").hide(1000,
+		function(){alert("yho...y hiding text click show text")
+		});
+	})
+	$("#anim").click(function(){
+		$("#box").animate({left: '800px',height:'-=300px'},1000).fadeOut(1000).show(1000).slideUp(1000).slideDown(1000).animate({height:'+=500',opacity:'0.7'});
+	})
+	$("#st").click(function(){
+	 $("#box").stop();
+	 var x = $("h1").width();
+	 $("#kk").text(x);
+	})
+	$("#bounce").click(function(){
+	$( "#box" ).toggle( "bounce", { times: 3 }, "slow" );
+	
+	})
+	
+})
+</script>
+</head>
+<body>
+sddsdsse
+<h1>Hi.....</h1>
+<button id="show">to show text</button>
+<button id="hide">to hide text</button>
+<button id="anim">Animies</button>
+<button id="st">stop</button>
+<button id="bounce">bounce</button>
+<div style="width:400px;height:400px; background:navy; margin:20px; position: absolute;" id="box"></div>
+<p id="kk">hi</p>
+</body>
+</html>
+
+
